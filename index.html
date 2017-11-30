@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>index</title>
+    <link  rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
+    <link href="css/stil.css" rel="stylesheet" type="text/css"/>
+</head>	
+<body>
+    <center>
+   <div class= "tabla" ><script>
+        var x;
+        var y;
+        var x=prompt("Escoge un n\u00FAmero");// para que salga la ventana emergente//
+         if (x>=1 && x <=9 && x!=NaN){
+            document.write("<table id='taula' class='table-striped'>");// para que salga en formato tabla//
+            document.write ("<caption>" + "Tabla del " + (x) + "</captation>"); // título de tabla
+            document.write("<th>" + "X" +   "</th>");//encabezado//   
+            document.write("<th>" + "Y" + "</th>");
+            document.write("<th>" + "X*Y" + "</th>");
+             for (y = 0; y < 10; y++){ // Se ejecuta 9  veces, con valores  y desde 0 hasta 9.//
+            document.write("<tr id='td'>");        
+            document.write ("<td id ='td'>" + (x) + "</td>"); // para que se escriba x //
+            document.write ("<td id= 'td'>" + (y) + "</td>"); // para que se escriba y//
+            document.write("<td id= 'td'>" +  (x*y) + "</td>"); // para que se escriba el resultado//
+            document.write("</tr>");
+               }
+        }
+        document.write("</table>");
+    </script></div>
+    </center>
+    <div class= "cp"><center> &copy; A.cabornero, 2017</center></div>
+</body>
+</html>

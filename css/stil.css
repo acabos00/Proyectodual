@@ -1,0 +1,22 @@
+.tabla {
+    border:3px solid #ccc;
+    color:#17202A    ;
+    font-family: "verdana";
+    font-size: 150%;
+    background-color:#73C6B6;
+    width: 300px; 
+  }
+
+  .cp {
+    margin-top: 55px;
+    color: #979A9A;
+  }
+  #td {
+      padding: 15px;
+      width: 30 px; 
+
+  }
+
+  body {
+    background-color:#E67E22 ;
+  }
